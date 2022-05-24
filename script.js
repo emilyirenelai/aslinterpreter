@@ -156,8 +156,8 @@ function speak() {
   message.rate = 1; // From 0.1 to 10
   message.pitch = 1; // From 0 to 2
   message.lang = "en";
-  message.text = `EMILY`;
-  //message.text = `${printString}`;
+  //message.text = `Hello`;
+  message.text = `${printString}`;
   speechSynthesis.speak(message);
 }
 
